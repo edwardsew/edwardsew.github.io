@@ -4,48 +4,52 @@
     -webkit-animation: PastelGradient 43s ease infinite;
     -moz-animation: PastelGradient 43s ease infinite;
     animation: PastelGradient 43s ease infinite;
+}
 
-    @-webkit-keyframes PastelGradient {
-        0% {
-            background-position: 0% 99%
-        }
-
-        50% {
-            background-position: 100% 2%
-        }
-
-        100% {
-            background-position: 0% 99%
-        }
+@-webkit-keyframes PastelGradient {
+    0% {
+        background-position: 0% 99%
     }
 
-    @-moz-keyframes PastelGradient {
-        0% {
-            background-position: 0% 99%
-        }
-
-        50% {
-            background-position: 100% 2%
-        }
-
-        100% {
-            background-position: 0% 99%
-        }
+    50% {
+        background-position: 100% 2%
     }
 
-    @keyframes PastelGradient {
-        0% {
-            background-position: 0% 99%
-        }
-
-        50% {
-            background-position: 100% 2%
-        }
-
-        100% {
-            background-position: 0% 99%
-        }
+    100% {
+        background-position: 0% 99%
     }
+}
+
+@-moz-keyframes PastelGradient {
+    0% {
+        background-position: 0% 99%
+    }
+
+    50% {
+        background-position: 100% 2%
+    }
+
+    100% {
+        background-position: 0% 99%
+    }
+}
+
+@keyframes PastelGradient {
+    0% {
+        background-position: 0% 99%
+    }
+
+    50% {
+        background-position: 100% 2%
+    }
+
+    100% {
+        background-position: 0% 99%
+    }
+}
+
+ul {
+    list-style-type: none;
 }
 
 .name {
@@ -60,7 +64,7 @@
     color: #2A2A2A;
 }
 
-.content{
+.titles{
     padding:70px;
 }
 
