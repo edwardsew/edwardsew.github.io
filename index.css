@@ -1,0 +1,79 @@
+﻿body {
+    background: linear-gradient(39deg, #ffb9c9, #b9ffe8, #ffd1b9, #d3ffb9);
+    background-size: 800% 800%;
+    -webkit-animation: PastelGradient 43s ease infinite;
+    -moz-animation: PastelGradient 43s ease infinite;
+    animation: PastelGradient 43s ease infinite;
+
+    @-webkit-keyframes PastelGradient {
+        0% {
+            background-position: 0% 99%
+        }
+
+        50% {
+            background-position: 100% 2%
+        }
+
+        100% {
+            background-position: 0% 99%
+        }
+    }
+
+    @-moz-keyframes PastelGradient {
+        0% {
+            background-position: 0% 99%
+        }
+
+        50% {
+            background-position: 100% 2%
+        }
+
+        100% {
+            background-position: 0% 99%
+        }
+    }
+
+    @keyframes PastelGradient {
+        0% {
+            background-position: 0% 99%
+        }
+
+        50% {
+            background-position: 100% 2%
+        }
+
+        100% {
+            background-position: 0% 99%
+        }
+    }
+}
+
+.name {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F3F3F3;
+}
+
+.description {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    color: #F3F3F3;
+}
+
+.content{
+    padding:70px;
+}
+
+a {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F3F3F3;
+}
+
+a:hover {
+    color: #F3F3F3;
+}
+
+a:visited {
+    color: #F3F3F3;
+}
