@@ -64,16 +64,16 @@ ul {
     color: #2A2A2A;
 }
 
-.titles {
-    padding: 70px;
+.titles{
+    padding:40px;
 }
 
 a {
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
     color: #2A2A2A;
-    text-decoration: none;
-    letter-spacing: 5px;
+    text-decoration:none;
+    letter-spacing:5px;
 }
 
     a:hover {
