@@ -55,7 +55,7 @@
 }
 
 .description {
-    font-size: 36px;
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: #2A2A2A;
 }
@@ -68,6 +68,8 @@ a {
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
     color: #2A2A2A;
+    text-decoration:none;
+    letter-spacing:5px;
 }
 
     a:hover {
