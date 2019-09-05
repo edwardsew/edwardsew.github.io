@@ -1,62 +1,95 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
     <title>OLY</title>
 
     <style>
-        body{
+        body {
             font-family: 'Noto Sans', sans-serif;
-            font-size:large;
-            background-image:url(water-fall-blank.jpg);
-            background-position:top;
+            font-size: large;
+            background-image: url(water-fall-blank.jpg);
+            background-position: top;
+            min-height: 100vh;
+            position: relative;
+            margin: 0;
         }
 
-        .navbar{
+        .navbar {
             justify-content: space-between;
-            align-items:center; 
+            align-items: center;
         }
 
-        a{
-            color:black;
-            font-size:large;
+        a {
+            color: black;
+            font-size: large;
         }
 
-        a:hover{
-            color:black;
+        a:hover {
+            color: black;
             text-decoration: none;
         }
 
-        a:visited{
-            color:black;
+        a:visited {
+            color: black;
         }
 
-        a:active{
-            color:grey;
+        a:active {
+            color: grey;
         }
+
+        .container {
+            text-align: center;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            padding-bottom: .5rem;
+        }
+
     </style>
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700&display=swap" rel="stylesheet">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="navbar">
         <div>
             <a href="band-index.html" style="font-size:3rem;">OLY</a>
         </div>
         <div>
+            <a href="#" style="padding-left:.5rem; padding-right:.5rem;">ABOUT</a>
             <a href="#" style="padding-left: .5rem; padding-right:.5rem;">MERCH</a>
             <a href="band-tour.html" style="padding-left: .5rem; padding-right:.5rem;">TOUR</a>
             <a href="band-music.html" style="padding-left: .5rem; padding-right:.5rem;">MUSIC</a>
         </div>
     </div>
-    <div class="container" style="text-align:center;">
+    <div class="container p-3">
+            <a href="" class="text-2xl px-3">INSTAGRAM</a>
+            <a href="" class="text-2xl px-3">TWITTER</a>
+            <a href="" class="text-2xl px-3">FACEBOOK</a>
     </div>
-  </body>
+    <div class="container w-full py-3 lg:w-3/6">
+        <h1 class="text-base pb-3 lg:text-2xl">SIGN UP FOR OUR MAILING LIST</h1>
+        <div class="input-group m-auto">
+            <input type="email" class="form-control" placeholder="email@website.com">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">SIGN UP</button>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
