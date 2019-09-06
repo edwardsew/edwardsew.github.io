@@ -6,9 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
     <title>OLY</title>
 
@@ -18,6 +16,9 @@
             font-size: large;
             background-image: url(water-fall-blank.jpg);
             background-position: top;
+            min-height: 100vh;
+            position: relative;
+            margin: 0;
         }
 
         .navbar {
@@ -42,6 +43,7 @@
         a:active {
             color: grey;
         }
+
     </style>
 
     <!-- fonts -->
@@ -49,18 +51,18 @@
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="p-3 lg:flex lg:justify-between lg:items-center">
         <div>
             <a href="band-index.html" style="font-size:3rem;">OLY</a>
         </div>
         <div>
-            <a href="#" style="padding-left:.5rem; padding-right:.5rem;">ABOUT</a>
-            <a href="#" style="padding-left: .5rem; padding-right:.5rem;">MERCH</a>
-            <a href="band-tour.html" style="padding-left: .5rem; padding-right:.5rem;">TOUR</a>
-            <a href="band-music.html" style="padding-left: .5rem; padding-right:.5rem;">MUSIC</a>
+            <a href="#" class="pr-3">ABOUT</a>
+            <a href="#" class="pr-3">MERCH</a>
+            <a href="band-tour.html" class="pr-3">TOUR</a>
+            <a href="band-music.html" class="pr-3">MUSIC</a>
         </div>
     </div>
-    <div class="container" style="">
+    <div class="container mx-auto">
         <a href="https://www.songkick.com/artists/10076344" class="songkick-widget" data-theme="light"
             data-track-button="on" data-detect-style="true" data-background-color="#ffffff" data-locale="en">OLY (US)
             tour dates</a>
